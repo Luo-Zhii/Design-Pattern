@@ -21,8 +21,15 @@
 
 <h2>3. Facade Pattern</h2>
 <p><b>Definition:</b> Provides a simple interface to <b>hide</b> the complexity of an underlying system.</p>
-
 <ul>
     <li><b>Software application:</b> Shop Shipping</li>
     <li><b>Practical application:</b> UI application</li>
 </ul>
+
+<h2>4. Proxy Pattern</h2>
+<p><b>Definition:</b> Provides an <b>middle layer</b> that controls <b>handle the problem</b> between other object </p>
+<ul>
+    <li><b>Software application:</b> Middleware </li>
+    <li><b>Practical application:</b> Deal salary</li>
+</ul>
+
