@@ -1,16 +1,20 @@
-- Strategy Pattern:
-<br/>
-    + Definition:
-        Should be <b>separated each content into function </b>so that easy to maintain as well as scalable code. Allow change algorithm without effect others function.
-<br/>
-    + Software application: Sale store
-<br/>
-    + Practical application: Go Rome
-<br>    
-- Observer Pattern: 
-<br>
-    + Definition: works as a signal transmitting and receiving system. It will separate into two part: <b>Observer(specific part)</b> and <b>Subject(common part)</b>. When an one of <b>Observer</b> will send signal to <b>Subject</b>, the <b>Subject</b> will receive and handle then send signal to other Observer
-  <br/>
-    + Software application: LOL Game
-<br/>
-    + Practical application: Group messenger
+<h1>Design Patterns</h1>
+
+<h2>Strategy Pattern</h2>
+<p><b>Definition:</b> Should be <b>separated each content into function</b> so that it's easy to maintain as well as scalable. Allows changing the algorithm without affecting other functions.</p>
+<ul>
+    <li><b>Software application:</b> Sale store</li>
+    <li><b>Practical application:</b> Go Rome</li>
+</ul>
+
+<h2>Observer Pattern</h2>
+<p><b>Definition:</b> Works as a signal transmitting and receiving system. It separates into two parts:</p>
+<ul>
+    <li><b>Observer (specific part)</b></li>
+    <li><b>Subject (common part)</b></li>
+</ul>
+<p>When one <b>Observer</b> sends a signal to the <b>Subject</b>, the <b>Subject</b> receives, handles it, and then sends the signal to other Observers.</p>
+<ul>
+    <li><b>Software application:</b> LOL Game</li>
+    <li><b>Practical application:</b> Group messenger</li>
+</ul>
