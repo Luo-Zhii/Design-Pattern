@@ -34,11 +34,18 @@
 </ul>
 
 <h2>5. Simple Factory Pattern</h2>
-<p><b>Definition:</b> Separate <b>object creation logic</b>(constructor) from the main code </p>
+<p><b>Definition:</b> Separate <b>object creation logic</b> (constructor) from the main code </p>
 <ul>
     <li><b>Software application:</b> Class Constructor </li>
     <li><b>Practical application:</b> Logistic</li>
 </ul>
 
+
+<h2>5. Factory Method Pattern</h2>
+<p><b>Definition:</b> Provides <b>an interface or class</b>, which subclass<b> depends</b> on it. This mean<b> through</b> subclass <b>change</b> property or method of father class will make <b>return  desired subclass</b></p>
+<ul>
+    <li><b>Software application:</b> Class Constructor </li>
+    <li><b>Practical application:</b> Logistic</li>
+</ul>
 
 
