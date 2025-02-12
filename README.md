@@ -33,3 +33,12 @@
     <li><b>Practical application:</b> Deal salary</li>
 </ul>
 
+<h2>5. Simple Factory Pattern</h2>
+<p><b>Definition:</b> Separate <b>object creation logic</b>(constructor) from the main code </p>
+<ul>
+    <li><b>Software application:</b> Class Constructor </li>
+    <li><b>Practical application:</b> Logistic</li>
+</ul>
+
+
+
