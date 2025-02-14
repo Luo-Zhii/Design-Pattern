@@ -41,11 +41,22 @@
 </ul>
 
 
-<h2>5. Factory Method Pattern</h2>
+<h2>6. Factory Method Pattern</h2>
 <p><b>Definition:</b> Provides <b>an interface or class</b>, which subclass<b> depends</b> on it. This mean<b> through</b> subclass <b>change</b> property or method of father class will make <b>return  desired subclass</b></p>
 <ul>
     <li><b>Software application:</b> Class Constructor </li>
     <li><b>Practical application:</b> Logistic</li>
 </ul>
 
+<h2>7. Singleton Pattern</h2>
+<p><b>Definition:</b>  Ensures a class has <b>only one instance</b> and provides <b>a global access point</b> to that instance</p>
+<ul>
+    <li><b>Software application:</b> Load Balance (Round-Robin) </li>
+</ul>
+
+<h2>8. Prototype Pattern</h2>
+<p><b>Definition:</b>  Allows create clone of one objects from existing instance(class) instead of create new ones</p>
+<ul>
+    <li><b>Software application:</b> Clone champion game</li>
+</ul>
 
