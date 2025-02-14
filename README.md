@@ -55,8 +55,25 @@
 </ul>
 
 <h2>8. Prototype Pattern</h2>
-<p><b>Definition:</b>  Allows create clone of one objects from existing instance(class) instead of create new ones</p>
+<p><b>Definition:</b>  Allows create <b>clone</b> of one objects from existing instance(class) <b>instead of</b> create new ones</p>
+ <p>If you wants to build macro, don't change, choose 
+</p>
 <ul>
     <li><b>Software application:</b> Clone champion game</li>
+    <li><b>Practical application:</b>Clone house</li>
+</ul>
+
+<h2>9. Builder Pattern</h2>
+<p><b>Definition:</b>  Allow create complex object <b>step by step</b> instead of passing too many para into a constructor </p>
+ It separates into two parts:</p>
+<ul>
+    <li><b>Builder:</b> A class with withX() methods to set properties step by step</li>
+    <li><b>Product: </b>Constructor reference property to builder</li>
+</ul>
+<p>If you wants to build micro, easy scale choose 
+</p>
+<ul>
+    <li><b>Software application:</b> Clone champion game</li>
+    <li><b>Practical application:</b> Build interior</li>
 </ul>
 

@@ -1,3 +1,5 @@
+// If you wants to build macro, easy scale choose 
+
 class Champion {
         name: string
         team: number
