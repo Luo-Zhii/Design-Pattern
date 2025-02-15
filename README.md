@@ -90,3 +90,15 @@
     <li><b>Software application:</b>Backend B to Backend A</li>
     <li><b>Practical application:</b>Momo to Visa</li>
 </ul>
+
+<h2>11. Bridge Pattern</h2>
+<p><b>Definition:</b> Allow <b>separates</b> independent <b>abstraction</b> and <b>implementation</b> help change implementation code without affecting other part </p>
+ <b>Main components:</b>
+ <ul>
+    <li><b>Abstraction:</b>Defined <b>main logic</b> and <b>hold reference</b> to the Implementation</li>
+    <li><b>Implementation: </b> An interface <b>defining behavior</b>. <b>Extend</b> with Abstraction</li>
+</ul>
+<b>Example:</b>
+<ul>
+    <li><b>Practical application:</b>Momo to Visa</li>
+</ul>
