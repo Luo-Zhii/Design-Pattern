@@ -77,3 +77,16 @@
     <li><b>Practical application:</b> Build interior</li>
 </ul>
 
+<h2>10. Adapter Pattern</h2>
+<p><b>Definition:</b> Allow <b>two incompatible system</b> to work <b>together</b> by <b>converted the interface</b> of one class into an interface that desired system</p>
+ <b>Main components:</b>
+ <ul>
+    <li><b>Target:</b>The interface that desired system </li>
+    <li><b>Adaptee: </b>Class <b>not match</b> Target interface</li>
+    <li><b>Adapter: </b>A bridge that converts the Adaptee to fit the Target (written name as "Target+Adapter")</li>
+</ul>
+<b>Example:</b>
+<ul>
+    <li><b>Software application:</b>Backend B to Backend A</li>
+    <li><b>Practical application:</b>Momo to Visa</li>
+</ul>

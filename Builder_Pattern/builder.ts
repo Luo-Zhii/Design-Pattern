@@ -33,8 +33,19 @@ class ChampionBuilder {
         return this
     }
 
+
+    private reset() {
+        this.name = ''
+        this.team = ''
+        this.position = ''
+        this.hp = 0
+        this.mp = 0
+    }
+
     build(){
-        return new ChampionProduct(this)
+        const champion = new ChampionProduct(this)
+        this.reset()
+        return champion
     }
 }
 
@@ -64,6 +75,7 @@ class ChampionProduct {
         player += `- States: ${JSON.stringify(this.stats)}\n`
         return player
     }
+
 }
 const championBuilder = new ChampionBuilder()
 const vayNe = championBuilder
@@ -77,3 +89,10 @@ const vayNe = championBuilder
 
 console.log(vayNe.toString())
 
+const twitch = championBuilder
+    .withName("twitch")
+    .withPosition("Jungle")
+    .withHp(1560)
+    .build()
+
+console.log(twitch.toString())
